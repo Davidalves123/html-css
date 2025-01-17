@@ -4,30 +4,67 @@
     margin: 0px;
     padding: 0px;
 }
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header{
     color: white;
     background-color: black;
     text-align: center;
-    padding: 30px;
     box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.425);
 }
 
 header > h1{
+    padding-top: 50px;
     font-size: 3em;
-    padding-bottom: 10px;
+    font-variant: small-caps;
 }
 
 header > p{
     font-size: 1.2em;
+    padding-bottom: 50px;
 }
 
-header a{
+footer a, header a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
 
-header a:hover{
-    color: rgb(128, 145, 128);
+footer a:hover, a:hover{
+    text-decoration: underline;
     transition-duration: 0.5s;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(71, 70, 70);
+    color: white;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.199);
+    width: 400px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    color: white;
 }
