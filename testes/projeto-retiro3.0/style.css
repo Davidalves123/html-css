@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+}
+
+header a{
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+main{
+    background-color: brown;
+    height: 100vh;
+}
